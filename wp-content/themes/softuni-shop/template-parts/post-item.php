@@ -1,4 +1,4 @@
-li class="product-card">
+<li class="product-card">
 		<div class="product-primary">
 			<h2 class="product-title">
                 <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>

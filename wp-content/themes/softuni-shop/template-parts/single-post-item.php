@@ -1,17 +1,18 @@
 <li class="product-card">
+
 		<div class="product-primary">
-			<h2 class="product-title">
+			<h1 class="product-title">
                 <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
-            </h2>
+            </h1>
 			<div class="product-meta">
-				<a class="meta-shockcode" href="#">Code: 650204111</a>
+				<a class="meta-shockcode" ><?php the_category(); ?></a>
 				<span class="meta-price">$ 179.99</span>
 			</div>
-			<div class="product-details product-details-table">
+			<!-- <div class="product-details product-details-table">
 				<span>Type</span><span>Washing machine</span>
 				<span>Brand</span><span>HAIER</span>
 				<span>Model</span><span>HW80-B14939-S</span>
-			</div>
+			</div> -->
 		</div>
 		<div class="product-logo">
 			<div class="product-logo-box">

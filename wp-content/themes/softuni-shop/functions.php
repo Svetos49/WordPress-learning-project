@@ -8,3 +8,16 @@ function softuni_assets() {
 }
 
 add_action( 'wp_enqueue_scripts', 'softuni_assets' );
+
+add_action( 'wp_enqueue_scripts', 'softuni_assets' );
+
+/**
+ * This function add a custom class
+ */
+
+function softuni_body_class( $classes ) {
+     $classes[] .= 'test-class';
+     return $classes;
+}
+
+add_filter( 'body_class', 'softuni_body_class' );
